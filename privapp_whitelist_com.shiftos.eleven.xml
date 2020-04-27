@@ -15,11 +15,7 @@
      limitations under the License.
 -->
 <permissions>
-    <!-- Compatibility for upgrades from old package name -->
-    <privapp-permissions package="com.cyanogenmod.eleven">
-        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
-    </privapp-permissions>
-    <privapp-permissions package="org.lineageos.eleven">
+    <privapp-permissions package="com.shiftos.eleven">
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 </permissions>
