@@ -39,7 +39,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.lineageos.eleven"
+        applicationId "com.shiftos.eleven"
 
         minSdkVersion 26
         targetSdkVersion 29

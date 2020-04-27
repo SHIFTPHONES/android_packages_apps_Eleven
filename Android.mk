@@ -35,12 +35,14 @@ LOCAL_JNI_SHARED_LIBRARIES := librsjni
 LOCAL_PROGUARD_FLAGS := -include $(LOCAL_PATH)/proguard.cfg
 LOCAL_PROGUARD_ENABLED := disabled
 
-LOCAL_REQUIRED_MODULES := privapp_whitelist_org.lineageos.eleven.xml
+LOCAL_REQUIRED_MODULES := privapp_whitelist_com.shiftos.eleven.xml
+
+LOCAL_AAPT_FLAGS += --rename-manifest-package com.shiftos.eleven
 
 include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := privapp_whitelist_org.lineageos.eleven.xml
+LOCAL_MODULE := privapp_whitelist_com.shiftos.eleven.xml
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT_ETC)/permissions
