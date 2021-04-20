@@ -44,8 +44,8 @@ android {
         minSdkVersion 26
         targetSdkVersion 30
 
-        versionCode 401
-        versionName '4.0.1'
+        versionCode 402
+        versionName '4.0.2'
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
