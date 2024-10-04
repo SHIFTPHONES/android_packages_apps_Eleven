@@ -1,15 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     SPDX-FileCopyrightText: 2022 The LineageOS Project
-     SPDX-License-Identifier: Apache-2.0
--->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-  <path
-      android:pathData="M45,44V55.515C43.57,54.558 41.85,54 40,54C35.029,54 31,58.029 31,63C31,67.971 35.029,72 40,72C44.971,72 49,67.971 49,63V48C49,45.791 50.791,44 53,44H67C69.209,44 71,45.791 71,48V55.515C69.57,54.558 67.85,54 66,54C61.029,54 57,58.029 57,63C57,67.971 61.029,72 66,72C70.971,72 75,67.971 75,63V44C75,39.582 71.418,36 67,36H53C48.582,36 45,39.582 45,44Z"
-      android:fillColor="#ffffffff"
-      android:fillType="evenOdd"/>
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+  <group android:scaleX="0.88"
+      android:scaleY="0.88"
+      android:translateX="30"
+      android:translateY="30">
+    <path
+        android:pathData="M338.36,137.68L199.5,137.68C189.2,137.68 180.84,146.04 180.84,156.35L180.84,193.72L357.03,193.72L357.03,156.35C357.03,146.04 348.67,137.68 338.36,137.68"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M201.94,188.44L201.94,323.34C201.94,321.16 201.71,318.98 201.23,316.79C198.89,306.08 191.13,297.75 180.84,293.39L180.84,188.44L201.94,188.44Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M201.94,322.98C201.94,336.1 193.62,348.56 180.63,355.49C176.92,357.46 172.8,358.99 168.41,359.95C146.09,364.82 124.6,353.21 120.4,334.01C116.22,314.81 130.91,295.28 153.23,290.41C162.99,288.28 172.58,289.31 180.63,292.73C191.02,297.14 198.86,305.55 201.22,316.36C201.7,318.57 201.94,320.78 201.94,322.98"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M357.03,188.44L357.03,323.34C357.03,321.16 356.8,318.98 356.32,316.79C353.98,306.08 346.22,297.75 335.93,293.39L335.93,188.44L357.03,188.44Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M357.03,322.98C357.03,336.1 348.71,348.56 335.73,355.49C332.01,357.46 327.9,358.99 323.5,359.95C301.18,364.82 279.69,353.21 275.5,334.01C271.31,314.81 286,295.28 308.32,290.41C318.08,288.28 327.67,289.31 335.73,292.73C346.11,297.14 353.95,305.55 356.32,316.36C356.8,318.57 357.03,320.78 357.03,322.98"
+        android:fillColor="#ffffff"/>
+  </group>
 </vector>
