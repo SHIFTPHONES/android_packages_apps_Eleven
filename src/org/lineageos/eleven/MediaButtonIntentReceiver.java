@@ -26,7 +26,7 @@ import androidx.legacy.content.WakefulBroadcastReceiver;
 
 @SuppressWarnings("deprecation")
 public class MediaButtonIntentReceiver extends WakefulBroadcastReceiver {
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
     private static final String TAG = "MediaButtonIntentReceiver";
 
     private static final SparseArray<String> KEY_CODE_MAPPING = new SparseArray<>(7);

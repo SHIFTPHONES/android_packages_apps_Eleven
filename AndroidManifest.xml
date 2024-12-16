@@ -204,7 +204,7 @@
         <!-- Media button receiver -->
         <receiver
             android:name="org.lineageos.eleven.MediaButtonIntentReceiver"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
